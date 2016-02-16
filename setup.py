@@ -12,7 +12,7 @@ except ImportError:
 long_description = 'Job Scheduler for a single server node'
 
 setup(name='localq',
-      version='0.3.6',
+      version='0.3.7',
       description='Local Job scheduler',
       author='Daniel Klevebring',
       author_email='daniel.klevebring@gmail.com',
