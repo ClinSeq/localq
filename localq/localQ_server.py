@@ -61,7 +61,7 @@ class LocalQServer():
             return job.jobid
 
     def add_script(self, script, num_cores, rundir=".", stdout=None, stderr=None, name=None, dependencies=None):
-        cmd = ["sh", script]
+        cmd = ["bash", script]
         return self.add(cmd, num_cores, stdout=stdout, stderr=stderr, rundir=rundir, name=name,
                         dependencies=dependencies)
 
